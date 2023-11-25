@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom"
 import { Translate } from "./Translate"
 
 const EXPERIENCE = [
-  { place: 'UFO Development', position: 'Owner', time: 'Jul 2023 -', src: './src/assets/ufo.png', route: '/ufo' },
-  { place: 'Upbrands Agency', position: 'Frontend Engineer', time: 'Abr 2023 -', src: './src/assets/upbrands.jpeg', route: '/uprands'  },
-  { place: 'Freelance', position: 'Freelance Developer', time: 'Ene 2022 - Dic 2022', src: './src/assets/freelancer.jpeg', route: '/freelance' },
-  { place: 'Inmunes Roleplay', position: 'Owner', time: 'Ene 2020 - Dic 2021', src: './src/assets/inmunes.jpg', route: '/inmunesrp' }
+  { place: 'UFO Development', position: 'Owner', time: 'Jul 2023 -', src: './src/assets/ufo.png', route: '/experiences/ufo' },
+  { place: 'Upbrands Agency', position: 'Frontend Engineer', time: 'Abr 2023 -', src: './src/assets/upbrands.jpeg', route: '/experiences/uprands'  },
+  { place: 'Freelance', position: 'Freelance Developer', time: 'Ene 2022 - Dic 2022', src: './src/assets/freelancer.jpeg', route: '/experiences/freelance' },
+  { place: 'Inmunes Roleplay', position: 'Owner', time: 'Ene 2020 - Dic 2021', src: './src/assets/inmunes.jpg', route: '/experiences/inmunesrp' }
 ]
 
 export const Experience = () => {

@@ -27,6 +27,8 @@ export const translations = {
     projectLetterSoupDescription: 'Proyecto universitario grupal que consiste en una sopa de letras que puede jugarse mediante la terminal, desarrollado con algoritmos y matricez en python.',
     projectStarTrekTitle: 'Star Trek Demo',
     projectStarTrekDescription: 'Proyecto universitario grupal que consiste en una base de datos robusta y una aplicación web en la que se puede visualizar información sobre la película Star Trek.',
+    projectInmunesTitle: 'Inmunes Roleplay',
+    projectInmunesDescription: 'Desarrollé un servidor de FiveM Roleplay, en el cual jugaban un promedio diario de 200 jugadores en simultáneo.'
   },
   EN: {
     notFoundPageTitle: '404 - Page Not Found',
@@ -56,5 +58,7 @@ export const translations = {
     projectLetterSoupDescription: 'Group university project that consists of a Word Search that can be played through the terminal, developed with algorithms and matrixes in python.',
     projectStarTrekTitle: 'Star Trek Demo',
     projectStarTrekDescription: 'Group university project that consists of a robust database and a web application in which information about the movie Star Trek can be displayed.',
+    projectInmunesTitle: 'Inmunes Roleplay',
+    projectInmunesDescription: 'I developed a FiveM Roleplay server, in which a daily average of 200 players played simultaneously.'
   }
 }

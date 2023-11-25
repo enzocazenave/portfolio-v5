@@ -37,7 +37,7 @@
 
 .animate-in {
   opacity: 0;
-  animation: animate-in 350ms ease-in-out forwards;
+  animation: animate-in 300ms ease-in-out forwards;
   animation-delay: calc(var(--index) * 130ms);
 }
 

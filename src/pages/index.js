@@ -1,3 +1,4 @@
 export * from './HomePage'
-export * from './Experiences'
+export * from './ExperiencesPage'
 export * from './NotFoundPage'
+export * from './ProjectsPage'
