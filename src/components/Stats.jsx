@@ -24,8 +24,9 @@ export const Stats = () => {
   return (
     <ul className="flex flex-col gap-2 animated-list">
       <li className="transition-opacity">
-        <a className="text-secondary font-light flex gap-2 items-center dark:text-secondaryDark" href="https://www.linkedin.com/in/enzo-cazenave/">
+        <a className="text-secondary font-light flex gap-2 items-center dark:text-secondaryDark max-sm:text-sm" href="https://github.com/enzocazenave">
           <FaGithub className="text-secondary dark:text-secondaryDark" />
+
           <SwitchTransition>
             <CSSTransition
               key={ ghRepos }
@@ -43,14 +44,14 @@ export const Stats = () => {
       </li>
 
       <li className="transition-opacity">
-        <a className="text-secondary font-light flex gap-2 items-center dark:text-secondaryDark" href="https://www.linkedin.com/in/enzo-cazenave/">
+        <a className="text-secondary font-light flex gap-2 items-center dark:text-secondaryDark max-sm:text-sm" href="https://www.linkedin.com/in/enzo-cazenave/">
           <FaLinkedinIn className="text-secondary dark:text-secondaryDark" />
           +600 <Translate text="statsContacts" />
         </a>
       </li>
 
       <li className="transition-opacity">
-        <a className="text-secondary font-light flex gap-2 items-center dark:text-secondaryDark" href="mailto:enzocazenavedev@hotmail.com">
+        <a className="text-secondary font-light flex gap-2 items-center dark:text-secondaryDark max-sm:text-sm" href="mailto:enzocazenavedev@hotmail.com">
           <IoMailOutline className="text-secondary dark:text-secondaryDark" />
           enzocazenavedev@hotmail.com
         </a>

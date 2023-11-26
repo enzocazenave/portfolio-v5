@@ -15,7 +15,7 @@ export const ExperiencesPage = () => {
 
   return (
     <div>
-      { experience }
+      <span className="text-primary dark:text-primaryDark">{ experience }</span>
     </div>
   )
 }

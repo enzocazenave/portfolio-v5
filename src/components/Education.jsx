@@ -20,7 +20,7 @@ export const Education = () => {
         <Translate text="educationTitle" />
       </h2>
 
-      <ul className="animated-list grid grid-cols-2 gap-4 md:gap-8">
+      <ul className="animated-list grid grid-cols-2 gap-4 md:gap-8 max-xs:grid-cols-1">
         {EDUCATION.map((education, index) => (
           <li key={index} className="flex gap-4 transition-opacity">
             { education.finished 

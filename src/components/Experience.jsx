@@ -27,20 +27,20 @@ export const Experience = () => {
         {EXPERIENCE.map((experience, index) => (
           <li 
             key={index} 
-            className="flex gap-4 transition-opacity items-center cursor-pointer"
+            className="flex gap-4 transition-opacity items-center cursor-pointer max-xs:items-start"
             onClick={ () => { navigate(experience.route) } } 
           >
-            <img src={experience.src} className="w-10 rounded-md object-cover" />
+            <img alt="Imagen de la experiencia" src={experience.src} className="w-10 rounded-md object-cover" />
 
-            <div className="flex-1 flex justify-between">
+            <div className="flex-1 flex justify-between max-xs:flex-col max-xs:justify-normal">
               <div className="flex flex-col gap-px">
                 <p className="text-primary font-light dark:text-primaryDark">{experience.position}</p>
                 <p className="text-secondary font-light dark:text-secondaryDark">{experience.place} </p>
               </div>
 
-              <div className="flex items-end flex-col gap-px">
-                <GoArrowUpRight className="opacity-0 transition-transform delay-50 text-primary dark:text-primaryDark svg-animation" />
-                <time className='text-secondary font-light dark:text-secondaryDark'>{experience.time}</time>
+              <div className="flex items-end flex-col gap-px max-xs:items-start max-xs:justify-between max-xs:flex-row-reverse">
+                <GoArrowUpRight className="opacity-0 transition-transform delay-50 text-primary dark:text-primaryDark svg-animation max-xs:opacity-100" />
+                <time className='text-terciary font-light dark:text-terciaryDark'>{experience.time}</time>
               </div>
             </div>
           </li>

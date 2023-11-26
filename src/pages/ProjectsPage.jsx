@@ -15,7 +15,7 @@ export const ProjectsPage = () => {
 
   return (
     <div>
-      { project }
+      <span className="text-primary dark:text-primaryDark">{ project }</span>
     </div>
   )
 }
